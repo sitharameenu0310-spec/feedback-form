@@ -1,1 +1,558 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=https://shrt.wizklub.com/1GsQLhYw">
+    <title>Principal Feedback Form | Academic Excellence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Meta tags for SEO and Professionalism -->
+    <meta name="description"
+        content="Official feedback portal for academic leadership and school performance evaluation.">
+</head>
+
+<body>
+    <div class="background-decor">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+    </div>
+
+    <main class="container">
+        <header class="header">
+
+            <h1>Wizklub Futurz Feedback form for AY 2025-26 - Cycle-III</h1>
+        </header>
+
+        <form id="feedbackForm" class="feedback-form">
+            <!-- Page 1: General Information -->
+            <div id="page1" class="form-page active">
+                <div class="greeting-text">
+                    <p><strong>Respected Principal/ Dean/ Co-ordinators,</strong></p>
+                    <p>Greetings from the Wizklub Futurz Team!</p>
+                    <p>Thank you for giving us the opportunity to implement the Wizklub Futurz program at your school.
+                        As we
+                        are successfully approaching the closure of the program for this accademic year, we would
+                        greatly appreciate your
+                        feedback
+                        on
+                        your experience with us.
+                    </p>
+                    <p><strong>Best Wishes..</strong><br>Wizklub Futurz Program Team</p>
+                </div>
+
+
+                <div class="required-indicator">
+                    * Indicates required question
+                </div>
+
+                <div class="form-section grid-section">
+                    <div class="section-header-purple">
+                        <h2>General Information</h2>
+                    </div>
+                    <div class="grid-container">
+                        <div class="form-group required-field">
+                            <label for="principal_name">Name <span class="required-asterisk">*</span></label>
+                            <input type="text" id="principal_name" name="principal_name" placeholder="Your answer"
+                                required>
+                            <div class="error-msg">This is a required question</div>
+                        </div>
+
+                        <div class="form-group required-field" style="margin-top: 2rem;">
+                            <label>Designation <span class="required-asterisk">*</span></label>
+                            <div class="radio-group">
+                                <label class="radio-item">
+                                    <input type="radio" name="designation" value="Principal" required>
+                                    <span class="radio-label">Principal</span>
+                                </label>
+                                <label class="radio-item">
+                                    <input type="radio" name="designation" value="Vice Principal">
+                                    <span class="radio-label">Vice Principal</span>
+                                </label>
+                                <label class="radio-item">
+                                    <input type="radio" name="designation" value="Dean">
+                                    <span class="radio-label">Dean</span>
+                                </label>
+                                <label class="radio-item">
+                                    <input type="radio" name="designation" value="Mavericks-Incharge">
+                                    <span class="radio-label">Mavericks-Incharge</span>
+                                </label>
+                                <label class="radio-item">
+                                    <input type="radio" name="designation" value="YLP-Incharge">
+                                    <span class="radio-label">YLP-Incharge</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group required-field" style="margin-top: 2rem;">
+                            <label for="email_id">Email-Id <span class="required-asterisk">*</span></label>
+                            <input type="email" id="email_id" name="email_id" placeholder="Your answer" required>
+                            <div class="error-msg">This is a required question</div>
+                        </div>
+                        <div class="form-group required-field" style="margin-top: 2rem;">
+                            <label for="branch">Branch <span class="required-asterisk">*</span></label>
+                            <div class="search-box-container">
+                                <div class="searchable-select" id="branch_searchable">
+                                    <input type="text" id="branch_search" class="search-input"
+                                        placeholder="Search school name..." autocomplete="off">
+                                    <div id="branch_results" class="search-results hidden"></div>
+                                    <select id="branch" name="branch" class="hidden-select" required>
+                                        <option value="" disabled selected>Choose</option>
+                                        <option value="Adibatla">Adibatla</option>
+                                        <option value="Agra">Agra</option>
+                                        <option value="Ambala">Ambala</option>
+                                        <option value="Asilmetta 3">Asilmetta 3</option>
+                                        <option value="Aurangabad">Aurangabad</option>
+                                        <option value="Aurangabad 2">Aurangabad 2</option>
+                                        <option value="Bada Bazar">Bada Bazar</option>
+                                        <option value="Ballari School">Ballari School</option>
+                                        <option value="Banaswadi">Banaswadi</option>
+                                        <option value="Bannerghatta Road">Bannerghatta Road</option>
+                                        <option value="Basavanagudi">Basavanagudi</option>
+                                        <option value="Bavadhan">Bhavadhan</option>
+                                        <option value="Bikaner">Bikaner</option>
+                                        <option value="Chaitanyapuri CBSE">Chaitanyapuri CBSE</option>
+                                        <option value="Coimbatore">Coimbatore</option>
+                                        <option value="Coimbatore 2">Coimbatore 2</option>
+                                        <option value="Coimbatore 4">Coimbatore 4</option>
+                                        <option value="Coimbatore 6">Coimbatore 6</option>
+                                        <option value="Davanagere">Davanagere</option>
+                                        <option value="Dehravdun">Dehradun</option>
+                                        <option value="Dhuri 2">Dhuri 2</option>
+                                        <option value="Dindigul">Dindigul</option>
+                                        <option value="Dombivali">Dombivali</option>
+                                        <option value="Dunlop">Dunlop</option>
+                                        <option value="ECIL 3">ECIL 3</option>
+                                        <option value="Electronic City International">Electronic City International
+                                        </option>
+                                        <option value="Eluru CBSE">Eluru CBSE</option>
+                                        <option value="Erode">Erode</option>
+                                        <option value="Faridabad">Faridabad</option>
+                                        <option value="Faridabad 2">Faridabad 2</option>
+                                        <option value="Ganapavaram">Ganapavaram</option>
+                                        <option value="Gangavathi">Gangavathi</option>
+                                        <option value="Ghaziabad">Ghaziabad</option>
+                                        <option value="Ghaziabad 2">Ghaziabad 2</option>
+                                        <option value="Gundla Pochampally CBSE">Gundla Pochampally CBSE</option>
+                                        <option value="Guntur RES">Guntur RES</option>
+                                        <option value="Gurugram 1">Gurugram 1</option>
+                                        <option value="Gurugram 2">Gurugram 2</option>
+                                        <option value="Gurugram 3">Gurugram 3</option>
+                                        <option value="Gurugram 4">Gurugram 4</option>
+                                        <option value="Gurugram 6">Gurugram 6</option>
+                                        <option value="Gurugram 9">Gurugram 9</option>
+                                        <option value="Hasmathpet">Hasmathpet</option>
+                                        <option value="Hathan">Hathan</option>
+                                        <option value="Hebbal">Hebbal</option>
+                                        <option value="Himayatnagar">Himayatnagar</option>
+                                        <option value="Hospet">Hospet</option>
+                                        <option value="Hosur">Hosur</option>
+                                        <option value="Hosur 2">Hosur 2</option>
+                                        <option value="Hosur 3">Hosur 3</option>
+                                        <option value="Howrah">Howrah</option>
+                                        <option value="HSR Layout">HSR Layout</option>
+                                        <option value="Hubli">Hubli</option>
+                                        <option value="International School">International School</option>
+                                        <option value="International School Whitehouse">International School Whitehouse
+                                        </option>
+                                        <option value="Intl Bezawada">Intl Bezawada</option>
+                                        <option value="Iyapanthangal">Iyapanthangal</option>
+                                        <option value="Jaipur 1">Jaipur 1</option>
+                                        <option value="Jaipur 2">Jaipur 2</option>
+                                        <option value="Jaipur 3">Jaipur 3</option>
+                                        <option value="Jaipur 4">Jaipur 4</option>
+                                        <option value="Jalandhar">Jalandhar</option>
+                                        <option value="Jodhpur">Jodhpur</option>
+                                        <option value="JP Nagar">JP Nagar</option>
+                                        <option value="Jubilee hills">Jubilee hills</option>
+                                        <option value="Kaggadasapura">Kaggadasapura</option>
+                                        <option value="Kaggadasapura Sanskriti">Kaggadasapura Sanskriti</option>
+                                        <option value="Kaggadasapura 3">Kaggadasapura 3</option>
+                                        <option value="Kakinada 3">Kakinada 3</option>
+                                        <option value="Kanakapura Road">Kanakapura Road</option>
+                                        <option value="Karnal">Karnal</option>
+                                        <option value="Karur">Karur</option>
+                                        <option value="Keelkattalai">Keelkattalai</option>
+                                        <option value="Khalsa">Khalsa</option>
+                                        <option value="KK Nagar">KK Nagar</option>
+                                        <option value="Kompally 2">Kompally 2</option>
+                                        <option value="Kompally 5">Kompally 5</option>
+                                        <option value="KR Puram">KR Puram</option>
+                                        <option value="Krishnagiri">Krishnagiri</option>
+                                        <option value="Kudlu">Kudlu</option>
+                                        <option value="Kudlu 2">Kudlu 2</option>
+                                        <option value="Kurmannapalem">Kurmannapalem</option>
+                                        <option value="Lucknow 1">Lucknow 1</option>
+                                        <option value="Madhavaram">Madhavaram</option>
+                                        <option value="Madhurawada">Madhurawada</option>
+                                        <option value="Madhurawada 5">Madhurawada 5</option>
+                                        <option value="Mahalakshmi Layout">Mahalakshmi Layout</option>
+                                        <option value="Malsian">Malsian</option>
+                                        <option value="Manapakkam">Manapakkam</option>
+                                        <option value="Mandya">Mandya</option>
+                                        <option value="Mangalore">Mangalore</option>
+                                        <option value="Manikonda">Manikonda</option>
+                                        <option value="Marthahally">Marthahally</option>
+                                        <option value="Marthahally 2">Marthahally 2</option>
+                                        <option value="Mehdipatnam">Mehdipatnam</option>
+                                        <option value="Moolakadai">Moolakadai</option>
+                                        <option value="MS Palya">MS Palya</option>
+                                        <option value="Muzaffarnagar">Muzaffarnagar</option>
+                                        <option value="Mylapore">Mylapore</option>
+                                        <option value="Mysore">Mysore</option>
+                                        <option value="Nacharam">Nacharam</option>
+                                        <option value="Nagarbhavi">Nagarbhavi</option>
+                                        <option value="Nagole">Nagole</option>
+                                        <option value="Nallagandla">Nallagandla</option>
+                                        <option value="Nallakunta">Nallakunta</option>
+                                        <option value="Namakkal">Namakkal</option>
+                                        <option value="Nanded">Nanded</option>
+                                        <option value="Nashik">Nashik</option>
+                                        <option value="Nashik 2">Nashik 2</option>
+                                        <option value="New Town">New Town</option>
+                                        <option value="New Town 2">New Town 2</option>
+                                        <option value="Noida 1">Noida 1</option>
+                                        <option value="Noida 2">Noida 2</option>
+                                        <option value="Noida 3">Noida 3</option>
+                                        <option value="Nolambur">Nolambur</option>
+                                        <option value="NTPC Ramagundam">NTPC Ramagundam</option>
+                                        <option value="Palakol 2">Palakol 2</option>
+                                        <option value="Palavakkam">Palavakkam</option>
+                                        <option value="Pallavaram">Pallavaram</option>
+                                        <option value="Pallavaram 2">Pallavaram 2</option>
+                                        <option value="Panipat">Panipat</option>
+                                        <option value="Peenya Dasarahalli">Peenya Dasarahalli</option>
+                                        <option value="Perumbakkam">Perumbakkam</option>
+                                        <option value="Perungudi">Perungudi</option>
+                                        <option value="Poonamallee International School">Poonamallee International
+                                            School
+                                        </option>
+                                        <option value="Raichur 3">Raichur 3</option>
+                                        <option value="Rajahmundry 1">Rajahmundry 1</option>
+                                        <option value="Rajajinagar">Rajajinagar</option>
+                                        <option value="Ram Murthy Nagar">Ram Murthy Nagar</option>
+                                        <option value="Ram Murthy nagar 3">Ram Murthy nagar 3</option>
+                                        <option value="Ram Murthy Nagar 4">Ram Murthy Nagar 4</option>
+                                        <option value="Ramagundam">Ramagundam</option>
+                                        <option value="Ramapuram">Ramapuram</option>
+                                        <option value="Reddypalem DS">Reddypalem DS</option>
+                                        <option value="Royapuram">Royapuram</option>
+                                        <option value="Salem">Salem</option>
+                                        <option value="Selaiyur">Selaiyur</option>
+                                        <option value="Serampore">Serampore</option>
+                                        <option value="Seshadripuram">Seshadripuram</option>
+                                        <option value="Shamli">Shamli</option>
+                                        <option value="Sindhanur">Sindhanur</option>
+                                        <option value="SR Nagar">SR Nagar</option>
+                                        <option value="Sunam">Sunam</option>
+                                        <option value="Tadepalligudem CBSE">Tadepalligudem CBSE</option>
+                                        <option value="Tambaram">Tambaram</option>
+                                        <option value="Thiruvanamalai">Thiruvanamalai</option>
+                                        <option value="Thoraipakkam">Thoraipakkam</option>
+                                        <option value="Tiruppur">Tiruppur</option>
+                                        <option value="Tiruppur 2">Tiruppur 2</option>
+                                        <option value="Trichy">Trichy</option>
+                                        <option value="TSN Puram">TSN Puram</option>
+                                        <option value="Tumkur">Tumkur</option>
+                                        <option value="Tumkur 3">Tumkur 3</option>
+                                        <option value="Ulhasnagar">Ulhasnagar</option>
+                                        <option value="Ullal">Ullal</option>
+                                        <option value="Uttarahalli">Uttarahalli</option>
+                                        <option value="Varthur">Varthur</option>
+                                        <option value="Velachery">Velachery</option>
+                                        <option value="Vidyaranyapura">Vidyaranyapura</option>
+                                        <option value="Wagholi">Wagholi</option>
+                                        <option value="Whitefield">Whitefield</option>
+                                        <option value="Yellahanka">Yellahanka</option>
+                                        <option value="Yeshwanthpur">Yeshwanthpur</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="next-btn" onclick="nextPage(1)">Next</button>
+                    <button type="button" class="clear-btn" onclick="clearForm()">Clear form</button>
+                </div>
+            </div>
+
+
+            <!-- Page 2: Session Progress, Exhibition & Renewal -->
+            <div id="page2" class="form-page">
+                <div class="form-section grid-section">
+                    <div class="section-header-purple">
+                        <h2>Session Progress and Quality</h2>
+                    </div>
+                    <div class="grid-container">
+                        <div class="form-group required-field">
+                            <label class="question-label">1. How would you rate the overall progress of Wizklub sessions
+                                during the year? <span class="required-asterisk">*</span></label>
+                            <div class="radio-group">
+                                <label class="radio-item"><input type="radio" name="session_progress_rating"
+                                        value="Excellent" required><span class="radio-label">Excellent</span></label>
+                                <label class="radio-item"><input type="radio" name="session_progress_rating"
+                                        value="Good"><span class="radio-label">Good</span></label>
+                                <label class="radio-item"><input type="radio" name="session_progress_rating"
+                                        value="Needs Improvement"><span class="radio-label">Needs
+                                        Improvement</span></label>
+                            </div>
+                        </div>
+
+                        <div class="form-group required-field" style="margin-top: 2rem;">
+                            <label class="question-label">2. Were the Wizklub sessions conducted regularly and as per
+                                schedule? <span class="required-asterisk">*</span></label>
+                            <div class="radio-group" style="flex-direction: row; gap: 2rem;">
+                                <label class="radio-item"><input type="radio" name="session_regularity" value="Yes"
+                                        required><span class="radio-label">Yes</span></label>
+                                <label class="radio-item"><input type="radio" name="session_regularity" value="No"><span
+                                        class="radio-label">No</span></label>
+                            </div>
+                        </div>
+
+                        <div class="form-group required-field" style="margin-top: 2rem;">
+                            <label class="question-label">3. How well did the Wizklub trainer exhibit subject expertise
+                                and manage the classroom environment? <span class="required-asterisk">*</span></label>
+                            <div class="checkbox-group" id="trainer_effectiveness_group">
+                                <label class="checkbox-item"><input type="checkbox" name="trainer_effectiveness"
+                                        value="Demonstrated good subject knowledge"><span
+                                        class="checkbox-label">Demonstrated good subject knowledge</span></label>
+                                <label class="checkbox-item"><input type="checkbox" name="trainer_effectiveness"
+                                        value="Good class room management"><span class="checkbox-label">Good class room
+                                        management</span></label>
+                                <label class="checkbox-item"><input type="checkbox" name="trainer_effectiveness"
+                                        value="Needs improvement in both"><span class="checkbox-label">Needs improvement
+                                        in both</span></label>
+                            </div>
+                            <div class="error-msg" id="trainer_effectiveness_error">Please select at least one option
+                            </div>
+                        </div>
+
+                        <!--<div class="form-group required-field" style="margin-top: 2rem;">
+                            <label class="question-label">4. Are you contented with the deployed Wizklub teacher in the
+                                branch? <span class="required-asterisk">*</span></label>
+                            <div class="radio-group">
+                                <label class="radio-item"><input type="radio" name="teacher_deployment_satisfaction"
+                                        value="Teacher continue" required><span class="radio-label">Fully satisfied with
+                                        teaching quality and engagement
+                                    </span></label>
+                                <label class="radio-item"><input type="radio" name="teacher_deployment_satisfaction"
+                                        value="Teacher with improvement"><span class="radio-label">Satisfied but
+                                        improvement needed in certain areas
+                                    </span></label>
+                                <label class="radio-item"><input type="radio" name="teacher_deployment_satisfaction"
+                                        value="Change"><span class="radio-label">Not satisfied with
+                                        performance</span></label>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+
+                <div class="form-section grid-section">
+                    <div class="section-header-purple">
+                        <h2>Exhibition</h2>
+                    </div>
+                    <div class="grid-container">
+                        <div class="form-group required-field">
+                            <label class="question-label">1. Were the projects exhibited during and exclusive Wizklub
+                                Day
+                                or in collaboration with Science Day?<span class="required-asterisk">*</span></label>
+                            <div class="radio-group" style="flex-direction: row; gap: 2rem;">
+                                <label class="radio-item"><input type="radio" name="wizklub_day_status"
+                                        id="wizklub_day_yes" value="Exclusive Wizklub Day" required><span
+                                        class="radio-label">Exclusive
+                                        Wizklub Day</span></label>
+                                <label class="radio-item"><input type="radio" name="wizklub_day_status"
+                                        id="wizklub_day_no" value="In collaboration with Science Day"><span
+                                        class="radio-label">In collabration with
+                                        Science Day</span></label>
+                                <label class="radio-item"><input type="radio" name="wizklub_day_status"
+                                        id="wizklub_day_yet" value="Yet to be conducted"><span class="radio-label">Yet
+                                        to be conducted</span></label>
+                            </div>
+                        </div>
+
+                        <div id="container_q3" class="form-group required-field hidden" style="margin-top: 2rem;">
+                            <label class="question-label">a. Please rate the Wizklub Day conducted in terms of: <span
+                                    class="required-asterisk">*</span></label>
+                            <div class="rating-grid">
+                                <div class="grid-header-row">
+                                    <div class="row-label"></div>
+                                    <div class="col-rating">Excellent</div>
+                                    <div class="col-rating">Good</div>
+                                    <div class="col-rating">Needs Improvement</div>
+                                </div>
+                                <div class="grid-row-item">
+                                    <div class="row-label">The exhibition helped students demonstrate learning and
+                                        creativity</div>
+                                    <div class="col-rating" data-label="Excellent"><input type="radio"
+                                            name="exhibit_learning" value="Excellent" required></div>
+                                    <div class="col-rating" data-label="Good"><input type="radio"
+                                            name="exhibit_learning" value="Good"></div>
+                                    <div class="col-rating" data-label="Needs Improvement"><input type="radio"
+                                            name="exhibit_learning" value="Needs Improvement"></div>
+                                </div>
+                                <div class="grid-row-item">
+                                    <div class="row-label">Students were confident while explaining projects</div>
+                                    <div class="col-rating" data-label="Excellent"><input type="radio"
+                                            name="exhibit_confidence" value="Excellent" required></div>
+                                    <div class="col-rating" data-label="Good"><input type="radio"
+                                            name="exhibit_confidence" value="Good"></div>
+                                    <div class="col-rating" data-label="Needs Improvement"><input type="radio"
+                                            name="exhibit_confidence" value="Needs Improvement"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="container_q2" class="form-group required-field hidden" style="margin-top: 2rem;">
+                            <label class="question-label">2. How would you rate the overall Wizklub project preparation
+                                at your school? <span class="required-asterisk">*</span></label>
+                            <div class="radio-group">
+                                <label class="radio-item"><input type="radio" name="exhibition_prep_rating"
+                                        value="Outstandingly well-prepared" required><span
+                                        class="radio-label">Outstandingly well-prepared</span></label>
+                                <label class="radio-item"><input type="radio" name="exhibition_prep_rating"
+                                        value="Adequately prepared"><span class="radio-label">Adequately
+                                        prepared</span></label>
+                                <label class="radio-item"><input type="radio" name="exhibition_prep_rating"
+                                        value="Somewhat underprepared"><span class="radio-label">Somewhat
+                                        underprepared</span></label>
+                            </div>
+                        </div>
+
+                        <div id="container_q4" class="form-group required-field hidden" style="margin-top: 2rem;">
+                            <label class="question-label">3. How was the parents’ engagement and response for the
+                                project exhibition? <span class="required-asterisk">*</span></label>
+                            <div class="radio-group">
+                                <label class="radio-item"><input type="radio" name="parents_engagement"
+                                        value="Parents were highly engaged and appreciated the projects." required><span
+                                        class="radio-label">Parents were
+                                        highly engaged and appreciated the projects.</span></label>
+                                <label class="radio-item"><input type="radio" name="parents_engagement"
+                                        value="Parents were engaged but suggested scope for improvement."><span
+                                        class="radio-label">Parents were engaged but suggested
+                                        scope for improvement.</span></label>
+                                <label class="radio-item"><input type="radio" name="parents_engagement"
+                                        value="Low engagement and/or parents expected significantly better projects."><span
+                                        class="radio-label">Low engagement and/or
+                                        parents expected significantly better projects.</span></label>
+                            </div>
+                        </div>
+
+                        <div id="container_q5" class="form-group required-field hidden" style="margin-top: 2rem;">
+                            <label class="question-label">4. What did you like most about the exhibition? <span
+                                    class="required-asterisk">*</span></label>
+                            <textarea name="exhibition_best_part" placeholder="Your answer" required rows="2"
+                                style="width: 100%; border: none; border-bottom: 1px solid #ddd; padding: 10px 0; font-family: inherit; resize: none;"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section grid-section">
+                    <div class="section-header-purple">
+                        <h2>Renewal</h2>
+                    </div>
+                    <div class="grid-container">
+                        <div class="form-group required-field">
+                            <label class="question-label">1. Would you recommend Wizklub to other schools? <span
+                                    class="required-asterisk">*</span></label>
+                            <div class="radio-group" style="flex-direction: row; gap: 2rem;">
+                                <label class="radio-item"><input type="radio" name="recommend_wizklub" value="Yes"
+                                        required><span class="radio-label">Yes</span></label>
+                                <label class="radio-item"><input type="radio" name="recommend_wizklub" value="No"><span
+                                        class="radio-label">No</span></label>
+                                <label class="radio-item"><input type="radio" name="recommend_wizklub"
+                                        value="Maybe-Time to Evaluate"><span class="radio-label">Maybe-Time to
+                                        Evaluate</span></label>
+                            </div>
+                        </div>
+
+                        <div class="form-group required-field" style="margin-top: 2rem;">
+                            <label class="question-label">2. According to you, what percentage of renewal is
+                                expected
+                                for the next academic year? (Non Mavericks students renewing for AY 26-27) <span
+                                    class="required-asterisk">*</span></label>
+                            <div class="radio-group">
+                                <label class="radio-item"><input type="radio" name="renewal_expectation_v2"
+                                        value="Above 75%" required><span class="radio-label">Above
+                                        75%</span></label>
+                                <label class="radio-item"><input type="radio" name="renewal_expectation_v2"
+                                        value="Between 50% - 75%"><span class="radio-label">Between 50% -
+                                        75%</span></label>
+                                <label class="radio-item"><input type="radio" name="renewal_expectation_v2"
+                                        value="Below 50%"><span class="radio-label">Below 50%</span></label>
+                            </div>
+                        </div>
+
+                        <div class="form-group required-field" style="margin-top: 2rem;">
+                            <label class="question-label">3. We have observed higher enrollment rates when class
+                                teachers speak directly with parents about the Wizklub program. Would you support
+                                involving your class teachers in these conversations during our admissions?<span
+                                    class="required-asterisk">*</span></label>
+                            <div class="radio-group" style="flex-direction: row; gap: 2rem;">
+                                <label class="radio-item"><input type="radio" name="adoption_calls_permission"
+                                        value="Yes" required><span class="radio-label">Yes</span></label>
+                                <label class="radio-item"><input type="radio" name="adoption_calls_permission"
+                                        value="No"><span class="radio-label">No</span></label>
+                            </div>
+                        </div>
+
+                        <div class="form-group required-field" style="margin-top: 2rem;">
+                            <label class="question-label">4. What are the areas of improvement? <span
+                                    class="required-asterisk">*</span></label>
+                            <textarea name="areas_of_improvement" placeholder="Your answer" required rows="2"
+                                style="width: 100%; border: none; border-bottom: 1px solid #ddd; padding: 10px 0; font-family: inherit; resize: none;"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" id="submitBtn" class="next-btn"
+                        style="background-color: #673ab7; color: white;">Submit</button>
+                    <div class="actions-right">
+                        <button type="button" class="back-btn" onclick="prevPage(2)">Back</button>
+                        <button type="button" class="clear-btn" onclick="clearForm()">Clear form</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <!-- Progress Bar Section -->
+        <div id="progressContainer" class="progress-container">
+            <span id="progressText">Page 1 of 2</span>
+            <div class="progress-bar-bg">
+                <div id="progressBar" class="progress-bar-fill" style="width: 20%;"></div>
+            </div>
+        </div>
+
+        <div id="successMessage" class="status-message success hidden">
+            <div class="message-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+            </div>
+            <h3 class="success-heading">Form Successfully Submitted</h3>
+            <p class="success-subtext">Thank you for your valuable feedback.</p>
+            <div class="success-footer">
+                <p>Best Wishes..</p>
+                <p class="team-name">Wizklub Futurz Program Team</p>
+            </div>
+            <button onclick="resetForm()" class="reset-btn-primary">New Submission</button>
+        </div>
+
+        <div id="errorMessage" class="status-message error hidden">
+            <div class="message-icon">!</div>
+            <h3>Submission Failed</h3>
+            <p>An error occurred while transmitting your data. Please check your connection and try again.</p>
+            <button onclick="toggleForm()" class="retry-btn">Try Again</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
